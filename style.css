@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(#7f7fd5, #86a8e7);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  max-width: 400px;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+  color: gray;
+  border: none;
+  max-width: 400px;
+}
+
+.todos li {
+  background: #423a6f;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.filtered {
+  display: none !important;
+}
